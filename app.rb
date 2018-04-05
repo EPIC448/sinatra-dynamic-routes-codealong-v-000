@@ -22,8 +22,9 @@ class App < Sinatra::Base
 
 
   get '/multiply/:num1/:num2' do
-  @goodbye = params[:name]
-    "(num1 and num2)."
+    binding.pry
+  @goodbye = params[:num1, ]
+    "(num1 num2)."
   end
 
 
