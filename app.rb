@@ -25,7 +25,7 @@ class App < Sinatra::Base
     binding.pry
   @spot_1 = params[:num1]
   @spot_2 = params[:num2]
-    "(num1 num2)."
+    "#{@spot_1} x #{spot_2}"
   end
 
 
