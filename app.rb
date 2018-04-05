@@ -25,7 +25,7 @@ class App < Sinatra::Base
   @spot_1 = params[:num1].to_i
   @spot_2 = params[:num2].to_i
   binding.pry
-    "#{@spot_1} * #{@spot_2}"
+    "@spot_1 * @spot_2"
   end
 
 
