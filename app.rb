@@ -27,5 +27,4 @@ class App < Sinatra::Base
     "@spot_1 * @spot_2"
   end
 
-
 end
