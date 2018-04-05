@@ -18,6 +18,13 @@ class App < Sinatra::Base
   get '/goodbye/:name' do
   @goodbye = params[:name]
     "Goodbye,(person's name)."
-end
+  end
+
+
+  get '/multiply/:num1/:num2' do
+  @goodbye = params[:name]
+    "(num1 and num2)."
+  end
+
 
 end
